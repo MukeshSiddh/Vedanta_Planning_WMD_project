@@ -25,16 +25,19 @@ the weekly schedule)
 
 # Workflow Steps for strategy:
 S1: **Calculate Ageing**
+
 • Input: Job order data with attributes 1 to 8.
 • Function: Ageing = Today() - Order crtd date
 • Output: Adds the “Ageing” attribute.
 
 S2: **Calculate Scheduling Priority**
+
 • Input: Job order data with attributes 1 to 10.
 • Function: Use the algorithm to find “Scheduling priority” using Asset criticality and Urgency.
 • Output: Adds the “Scheduling priority” attribute.
 
 S3:** Optimize Man hrs and Time**
+
 • Input: Job order data with attributes 1 to 11.
 • Function: Apply the Man hrs and time optimization algorithm.
 • Output: Generate a schedule in terms of week and week-day in a new
