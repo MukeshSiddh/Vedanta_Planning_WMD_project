@@ -36,7 +36,7 @@ S2: **Calculate Scheduling Priority** <br />
 • Output: Adds the “Scheduling priority” attribute.<br />
 
 S3: **Optimize Man hrs and Time**<br />
-• Input: Job order data with attributes 1 to 10.
+• Input: Job order data with attributes 1 to 10.<br />
 • Function: Apply the Man hrs and time optimization algorithm.<br />
 • Output: Generate a schedule in terms of week and week-day in a new
 Excel sheet.
