@@ -3,8 +3,9 @@ Developed strategies to optimize job scheduling and manpower utilization for the
 
 # Proposed Strategy:
 
-Initially we have the all jobs with the following attributes:</br>
-• Initial Data Attributes:
+Initially we have the all jobs with the following attributes:
+
+• **Initial Data Attributes**:
 1. Work Order No
 2. Order crtd date (Date on which the work order is created)
 3. work duration (Time taken to complete that work)
@@ -14,7 +15,7 @@ Initially we have the all jobs with the following attributes:</br>
 7. Urgency
 8. User status (To check the progress of that job)
    
-• Calculated Attributes:
+• **Calculated Attributes**:
 1. Ageing (calculated in Excel: Today() - Order crtd date)
 2. Scheduling Priority (using prioritization algorithm)
 3. Week
@@ -36,7 +37,7 @@ S2: **Calculate Scheduling Priority**
 • Function: Use the algorithm to find “Scheduling priority” using Asset criticality and Urgency.
 • Output: Adds the “Scheduling priority” attribute.
 
-S3:** Optimize Man hrs and Time**
+S3: **Optimize Man hrs and Time**
 
 • Input: Job order data with attributes 1 to 11.
 • Function: Apply the Man hrs and time optimization algorithm.
