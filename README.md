@@ -1,5 +1,6 @@
 # Vedanta_Planning_WMD_project
 (**I am uploading this report with the consent of my mentor, and copyright applies to all contents within.**)
+
 Developed strategies to optimize job scheduling and manpower utilization for the 2MTPA Alumina refinery
 
 # Proposed Strategy:
